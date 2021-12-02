@@ -3,6 +3,10 @@ name = "lib"
 version = "0.1.0"
 description = "personal library"
 authors = ["Hengda Shi"]
+packages = [
+    { include = "my-package", from = "lib" },
+    { include = "my-package/**/*.py" },
+]
 
 [tool.poetry.dependencies]
 python = ">= 3.7, <= 3.10"
