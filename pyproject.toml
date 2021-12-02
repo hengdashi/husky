@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "personal library"
 authors = ["Hengda Shi"]
 packages = [
-    { include = "my-package", from = "lib" },
-    { include = "my-package/**/*.py" },
+    { include = "ml"},
+    { include = "ml/**/*.py" },
 ]
 
 [tool.poetry.dependencies]
