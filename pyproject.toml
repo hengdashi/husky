@@ -1,11 +1,10 @@
 [tool.poetry]
-name = "lib"
+name = "husky"
 version = "0.1.0"
-description = "personal library"
+description = "husky is a collection of utility functions owned by me"
 authors = ["Hengda Shi"]
 packages = [
-    { include = "ml"},
-    { include = "ml/**/*.py" },
+    { include = "**/*.py" }
 ]
 
 [tool.poetry.dependencies]
