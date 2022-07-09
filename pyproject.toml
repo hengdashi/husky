@@ -1,25 +1,21 @@
 [tool.poetry]
 name = "husky"
 version = "0.1.0"
-description = "husky is a collection of utility functions owned by me"
+description = "husky is a collection of utility functions owned by Hengda Shi"
 authors = ["Hengda Shi"]
 packages = [
     { include = "husky" }
 ]
 
 [tool.poetry.dependencies]
-python = ">= 3.7.1, < 3.10"
-neovim = "^0.3.1"
-neovim-remote = "^2.4.0"
-wandb = "^0.12.7"
-plotly = "^5.4.0"
-kaggle = "^1.5.12"
-lightgbm = "^3.3.1"
-tensorflow = "^2.7.0"
-pylint = "^2.12.1"
-pandas = "^1.3.4"
+python = "~3.10"
+tensorflow = "~2.9"
+pandas = "~1.4"
 
 [tool.poetry.dev-dependencies]
+neovim = "*"
+neovim-remote = "*"
+pylint = "~2.12"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
